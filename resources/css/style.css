@@ -7,13 +7,21 @@ body {
     background-color: black;
 }
 
-h1,
-h2,
-p,
-.nav-link {
+h1 {
     font-family: 'Verdana';
     text-align: center;
 }
+
+h2 {
+    font-family: 'Verdana';
+    text-align: center;
+}
+
+p {
+    font-family: 'Verdana';
+    text-align: center;
+}
+
 
 header {
     padding-top: 40px;
@@ -29,6 +37,7 @@ header {
 
 
 .nav-link {
+    font-family: 'Verdana';
     color: aquamarine;
     font-size: 16px;
     text-decoration: underline;
@@ -55,3 +64,21 @@ video {
     font-size: 21px;
     color: gray;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+section img {
+    max-width: 80%;
+    height: auto;
+}
+
+.phone {
+    margin-top: 20px;
+}
+
