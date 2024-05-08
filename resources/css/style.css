@@ -9,23 +9,35 @@ body {
 
 h1,
 h2,
-.nav-link{
+.nav-link {
     font-family: 'Verdana';
     text-align: center;
 }
+
+header {
+    padding-top: 40px;
+}
+
 
 .main-heading {
     font-weight: normal;
     font-size: 50px;
     color: white;
+    margin-bottom: 30px;
 }
+
 
 .nav-link {
     color: aquamarine;
     font-size: 16px;
     text-decoration: underline;
+
 }
 
+
+video {
+    justify-content: center;
+}
 
 
 
