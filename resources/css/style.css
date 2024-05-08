@@ -3,9 +3,13 @@
     padding: 0;
 }
 
+body {
+    background-color: black;
+}
+
 h1,
 h2,
-p {
+.nav-link{
     font-family: 'Verdana';
     text-align: center;
 }
@@ -13,7 +17,7 @@ p {
 .main-heading {
     font-weight: normal;
     font-size: 50px;
-    /*color: white;*/
+    color: white;
 }
 
 .nav-link {
