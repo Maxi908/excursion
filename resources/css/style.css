@@ -9,6 +9,7 @@ body {
 
 h1,
 h2,
+p,
 .nav-link {
     font-family: 'Verdana';
     text-align: center;
@@ -31,18 +32,26 @@ header {
     color: aquamarine;
     font-size: 16px;
     text-decoration: underline;
-
+    margin-top: 40px;
 }
 
 
 video {
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
-
 
 
 
 .section-heading {
     font-weight: 300;
     font-size: 42px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.tagline {
+    font-size: 21px;
+    color: gray;
 }
