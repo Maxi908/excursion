@@ -5,23 +5,12 @@
 
 body {
     background-color: black;
+    font-family: 'Verdana', sans-serif;
 }
 
-h1 {
-    font-family: 'Verdana';
+h1, h2, p {
     text-align: center;
 }
-
-h2 {
-    font-family: 'Verdana';
-    text-align: center;
-}
-
-p {
-    font-family: 'Verdana';
-    text-align: center;
-}
-
 
 header {
     padding-top: 40px;
@@ -80,5 +69,16 @@ section img {
 
 .phone {
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
+.footer-container {
+padding: 20px;
+margin-top: 40px;
+}
+
+.footer-text {
+    text-align: right;
+    color: gray;
+    font-size: 20px ;
+}
